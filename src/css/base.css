@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  margin:  auto;
+  min-width : 400px;
+  border-collapse: collapse; 
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+th {
+  font-size: 14px;
+  background: teal;
+  font-weight: normal;
+  color: blanchedalmond;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid black;
+  padding: 6px 8px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 4px 6px;
+}
+
+.row-even {
+  background-color: thistle;
+}
+
+.row-odd {
+  background-color: wheat;
+}
+
